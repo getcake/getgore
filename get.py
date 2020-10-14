@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from random import randint as ri
 import requests
 
-link = input("Enter the link of the vide you wish to download\n> ")
+link = input("Enter the link of the video you wish to download\n> ")
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36",
 }
